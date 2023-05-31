@@ -1,0 +1,22 @@
+{
+    "manifest": {
+      "$schema": "https://plugins.openai.com/schema/v1/plugin.json",
+      "schema_version": "1.0.0",
+      "name_for_model": "global_database_plugin",
+      "name_for_human": "Global Database Plugin",
+      "description_for_model": "A plugin that integrates OpenAI's ChatGPT with the Global Database API. It allows users to search for company information and fetch details about specific companies.",
+      "description_for_human": "A plugin that connects OpenAI's ChatGPT with the Global Database API. It provides access to company information and allows users to search for specific companies.",
+      "auth": {
+        "type": "none",
+        "instructions": "No authentication is required for this plugin."
+      },
+      "api": {
+        "type": "openapi",
+        "url": "http://localhost:5003/openapi.yaml"
+      },
+      "logo_url": "https://example.com/logo.png",
+      "contact_email": "support@example.com",
+      "legal_info_url": "https://example.com/legal"
+    }
+}
+  
